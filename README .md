@@ -70,7 +70,7 @@ The dashboard transforms raw retail data into **actionable business insights** t
 ## 🖼️ Dashboard Screenshots
 
 ### Page 1 — Overview
-![Overview](screenshots/1_overview.png)
+![Overview](Screenshots/1_Overview.png)
 
 ### Page 2 — Product & Region
 ![Product & Region](screenshots/2_product_region.png)
