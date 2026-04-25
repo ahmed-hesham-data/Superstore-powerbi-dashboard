@@ -57,27 +57,6 @@ The dashboard transforms raw retail data into **actionable business insights** t
 
 ---
 
-## ⚙️ DAX Measures Used
-
-```DAX
--- Total Sales
-Total Sales = SUM('Orders'[Sales])
-
--- Profit Margin %
-Profit Margin % = DIVIDE([Total Profit], [Total Sales], 0)
-
--- Year over Year Comparison
-Sales LY = CALCULATE([Total Sales], SAMEPERIODLASTYEAR('Orders'[Order Date]))
-
--- Growth %
-Growth % = DIVIDE([Total Sales] - [Sales LY], [Sales LY], 0)
-
--- Average Shipping Days
-Avg Shipping Days = AVERAGEX('Orders', DATEDIFF('Orders'[Order Date], 'Orders'[Ship Date], DAY))
-```
-
----
-
 ## 📂 Dataset
 
 - **Source:** Superstore Dataset (Kaggle)
@@ -91,16 +70,16 @@ Avg Shipping Days = AVERAGEX('Orders', DATEDIFF('Orders'[Order Date], 'Orders'[S
 ## 🖼️ Dashboard Screenshots
 
 ### Page 1 — Overview
-![Overview](screenshots/page1_overview.png)
+![Overview](screenshots/1_overview.png)
 
 ### Page 2 — Product & Region
-![Product & Region](screenshots/page2_product_region.png)
+![Product & Region](screenshots/2_product_region.png)
 
 ### Page 3 — Customer
-![Customer](screenshots/page3_customer.png)
+![Customer](screenshots/3_customer.png)
 
 ### Page 4 — Key Insights
-![Key Insights](screenshots/page4_insights.png)
+![Key Insights](screenshots/4_insights.png)
 
 ---
 
@@ -120,13 +99,6 @@ Avg Shipping Days = AVERAGEX('Orders', DATEDIFF('Orders'[Order Date], 'Orders'[S
 📧 ahmed.hesham.data@gmail.com
 🔗 [LinkedIn](https://www.linkedin.com/in/ahmed-hesham-data)
 🐙 [GitHub](https://github.com/ahmed-hesham-data)
-
----
-
-## 🔗 Related Projects
-
-- [SQL Sales Analysis](https://github.com/ahmed-hesham-data/Superstore-SQL-Analysis) — Same dataset analyzed with SQL
-- [Excel Sales Dashboard](https://github.com/ahmed-hesham-data/excel-sales-dashboard-analysis) — End-to-end Excel analysis
 
 ---
 
