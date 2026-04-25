@@ -73,13 +73,13 @@ The dashboard transforms raw retail data into **actionable business insights** t
 ![Overview](Screenshots/1_Overview.png)
 
 ### Page 2 — Product & Region
-![Product & Region](screenshots/2_product_region.png)
+![Product & Region](Screenshots/2_product_region.png)
 
 ### Page 3 — Customer
-![Customer](screenshots/3_customer.png)
+![Customer](Screenshots/3_customer.png)
 
 ### Page 4 — Key Insights
-![Key Insights](screenshots/4_insights.png)
+![Key Insights](Screenshots/4_insights.png)
 
 ---
 
